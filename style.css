@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+  background: linear-gradient(to bottom right, #f07a75, #000000); 
+}
+.card{
+    background: #77a1d3;
+  background: -webkit-linear-gradient(to right, #77a1d3, #79cbca, #e684ae);
+  background: linear-gradient(to right, #77a1d3, #79cbca, #e684ae); 
+}
