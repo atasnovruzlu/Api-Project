@@ -61,20 +61,3 @@ fetch('https://jsonplaceholder.typicode.com/users')
 
   });
 
-$(document).ready(function () {
-
-  // var currentid = $(this).closest("tr").children("td").eq(0).text();
-  // var currentUseId = $(this).closest("tr").children("td").eq(3).text();
-  // var currentTitle = $(this).closest("tr").children("td").eq(1).text();
-  // var currentBody = $(this).closest("tr").children("td").eq(2).text();
-  // var paragraph = "<p>";
-  // paragraph = paragraph +
-  //   "Id: " + "  " + currentid + "<br>" +
-  //   "Title: " + "  " + currentTitle + "<br>" +
-  //   "Body: " + "  " + currentBody + "<br>" +
-  //   "UserId: " + "  " + currentUseId + "<br>" +
-
-  //   "</p>";
-  // $(".view").html(paragraph);
-
-})
