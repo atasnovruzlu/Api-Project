@@ -1,9 +1,6 @@
 fetch('https://jsonplaceholder.typicode.com/users')
   .then(response => response.json())
   .then(data => {
-    for (let i = 0; i < data.length; i++) {
-
-    }
     data.forEach(element => {
       let id = element.id;
       let email = element.email;
