@@ -52,10 +52,8 @@ fetch('https://jsonplaceholder.typicode.com/users')
 </div>`
       $("body").click(function (e) {
         if (e.target.className == 'btn btn-primary openModal') {
-          console.log(email);
-          console.log(email);
-          console.log(email);
 
+          console.log(this);
 
         }
       })
